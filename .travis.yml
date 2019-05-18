@@ -8,7 +8,8 @@ dist: xenial
 language: scala
 
 jdk:
-  - oraclejdk8
+  # - oraclejdk8 Not supported in xenial
+  - openjdk8
   # - oraclejdk9 Let's assume 8 and 11 are enough
   - openjdk11
 
