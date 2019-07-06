@@ -48,7 +48,7 @@ class GregorianCalendar(timezone: TimeZone = TimeZone.getDefault, locale: Locale
   protected[util] def computeTime(): Unit = ???
   protected[util] def computeFields(): Unit = ???
   // Access  from DateTimeUtils
-  /*protected[util]*/ def getTimeZone: TimeZone = ???
+//  override def getTimeZone: TimeZone = timezone
   def toZonedDateTime: ZonedDateTime = ???
   def setGregorianChange(date: Date): Unit = ???
   def add(x$1: Int,x$2: Int): Unit = ???
